@@ -30,6 +30,7 @@ How to initialize the application on your device:
   1.create a MYQL database of your choice. Make sure it is an empty database.
   2.configure all the variables inside 'config.js' that's located inside the main directory. That should be the only file you need to configure/make changes to.
   3.launch! using the command 'node server.js' from the main directory.
+  4.run 'table.js' inside the DB folder to create your users table.
   4.it should work now! 
    
 
