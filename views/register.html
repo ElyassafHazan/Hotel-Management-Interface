@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles_login_register.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="content-2">
+                <div class="login-div">
+                    <div class="title">
+                        <h2>Employee Registeration</h2>
+                        <a href="#" class="btn"><img src="media/help-web-button.png" alt=""/>Help</a>
+                    </div>
+                    <!--I removed the attributes from form tag: action="/register" method="POST"-->
+                    <table><form>
+                        <tr><td><span id="message-display"></span></td></tr>
+                        <tr><td> <label class="user-block-items">Email:</label>
+                            <input class="umser-block-ites" name="email" type="email" id="email" placeholder="your@email.com"></td></tr>
+                        <tr><td> <label class="user-block-items">User Name:</label>
+                            <input class="user-block-items" name="username" type="text" id="username"  placeholder="Username"></td></tr>
+                        <tr><td> <label class="user-block-items">Password:</label>
+                            <input class="user-block-items" name="password" type="password" id="password" placeholder="Passowrd"></td></tr>
+                        <tr><td><button id="submit-button" class="btn user-block-items">Register</button></td></tr>
+                        </form></table>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+   
+<script src="./register.js" type="module"></script>
+</body>
+</html>

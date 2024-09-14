@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./styles/styles_login_register.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="content-2">
+                <div class="login-div">
+                    <div class="title">
+                        <h2>Employee Login</h2>
+                        <a href="#" class="btn"><img src="media/help-web-button.png" alt=""/>Help</a>
+                    </div>
+                    <table>
+                        <tr><td><span id="message-display"></span></td></tr>
+                        <tr><td> <label class="user-block-items">User Name:</label>
+                            <input class="user-block-items" type="text" id="username"  placeholder="Username"></td></tr>
+                        <tr><td> <label class="user-block-items">Password:</label>
+                            <input class="user-block-items" type="password" id="password" placeholder="Passowrd"></td></tr>
+                        <tr><td><button id="submit-button" class="btn user-block-items" onclick="">Log in</button></td></tr>
+                        <tr><td><a href="/reg">Not a memeber? Sign Up!</a></td></tr>
+                        </table>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<script src="./login.js" type="module"></script>
+</body>
+</html>
